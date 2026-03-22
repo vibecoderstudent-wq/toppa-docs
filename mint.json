@@ -1,0 +1,52 @@
+{
+  "name": "TOPPA",
+  "logo": {
+    "light": "/logo/toppa-light.png",
+    "dark": "/logo/toppa-dark.png"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#F47B20",
+    "light": "#F9A55A",
+    "dark": "#E5640A"
+  },
+  "topbarLinks": [
+    {
+      "name": "Dashboard",
+      "url": "https://toppa.com.ng/dashboard"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get API Key",
+    "url": "https://toppa.com.ng/dashboard"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/wallet",
+        "api-reference/airtime",
+        "api-reference/data",
+        "api-reference/electricity",
+        "api-reference/tv",
+        "api-reference/transfer",
+        "api-reference/recharge-pins",
+        "api-reference/transactions",
+        "api-reference/webhooks"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://toppa.com.ng"
+  }
+}
