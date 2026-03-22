@@ -1,0 +1,32 @@
+{
+  "name": "TOPPA",
+  "logo": {
+    "light": "/logo/toppa-light.png",
+    "dark": "/logo/toppa-dark.png"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#F47B20",
+    "light": "#F9A55A",
+    "dark": "#E5640A"
+  },
+  "topbarLinks": [
+    {
+      "name": "Dashboard",
+      "url": "https://toppa.com.ng/dashboard"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get API Key",
+    "url": "https://toppa.com.ng/dashboard"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://toppa.com.ng"
+  }
+}
