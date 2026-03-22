@@ -1,0 +1,64 @@
+---
+title: Welcome to TOPPA
+description: Nigeria's most reliable VTU API — Airtime, Data, Electricity, Cable TV, Bank Transfers and more.
+---
+
+TOPPA gives developers and businesses instant programmatic access to essential utility services across Nigeria. Whether you're building a fintech app, a POS agent tool, or a reseller platform — integrate in minutes.
+
+## What You Can Build
+
+<CardGroup cols={2}>
+  <Card title="Airtime" icon="mobile" href="/api-reference/airtime">
+    Send airtime instantly to MTN, Airtel, Glo, and 9mobile at discounted rates.
+  </Card>
+  <Card title="Data Bundles" icon="wifi" href="/api-reference/data">
+    Purchase daily, weekly, and monthly data bundles for any network.
+  </Card>
+  <Card title="Electricity" icon="bolt" href="/api-reference/electricity">
+    Pay bills for all 10 Nigerian DISCOs. Prepaid tokens delivered instantly.
+  </Card>
+  <Card title="Cable TV" icon="tv" href="/api-reference/tv">
+    Subscribe DSTV, GOtv, and Startimes to any package.
+  </Card>
+  <Card title="Bank Transfer" icon="building-columns" href="/api-reference/transfer">
+    Send money to any Nigerian bank. Flat fee of N20 per transfer.
+  </Card>
+  <Card title="Recharge PINs" icon="hashtag" href="/api-reference/recharge-pins">
+    Generate bulk recharge PINs for resale across all networks.
+  </Card>
+</CardGroup>
+
+## Base URL
+
+All requests go to:
+https://toppa.com.ng
+## Authentication
+
+Include your Bearer token in every request:
+Authorization: Bearer toppa_xxxxxxxxxxxxxxxx
+Get your token from **toppa.com.ng/dashboard → Settings → API**
+
+<Warning>
+Never expose your token in client-side code. Rotate it immediately if compromised.
+</Warning>
+
+## Response Format
+
+Every response follows this structure:
+
+<CodeGroup>
+```json Success
+{
+  "success": true,
+  "message": "Operation completed",
+  "data": { }
+}
+{
+  "success": false,
+  "error": "Human-readable description",
+  "code": "ERROR_CODE"
+}
+�
+
+Need Help?
+Email us at support@toppa.com.ng or visit your dashboard.
